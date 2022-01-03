@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="form">
+    <input type="text" id="search"></input>
+    <button onclick="search()">Search</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Types</th>
+        <th>Abilities</th>
+        <th>HP</th>
+        <th>Attack</th>
+        <th>Defense</th>
+        <th>Special Attack</th>
+        <th>Special Defense</th>
+        <th>Speed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td><img id="image" src=""/></td>
+          <td id="name"></td>
+          <td id="types"></td>
+          <td id="abilities"></td>
+          <td id="hp"></td>
+          <td id="attack"></td>
+          <td id="defense"></td>
+          <td id="special-attack"></td>
+          <td id="special-defense"></td>
+          <td id="speed"></td>
+      </tr>
+  </tbody>
+  </table>
+  <script src="./index.js"></script>
+</body>
+</html>
